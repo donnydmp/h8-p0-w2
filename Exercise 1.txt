@@ -1,0 +1,55 @@
+1. Newton Second Law 
+
+STORE "massabenda" with any value
+STORE "percepatanbenda" with any value
+STORE "resultangaya" without any value
+
+CALCULATE "masabenda" times "percepatanbenda"
+SET "resultangaya" value with calculation result
+
+DISPLAY "resultangaya"
+
+
+
+2. Tahun Kabisat
+
+
+STORE "tahun" with any number
+
+WHILE "tahun" 2020
+  DISPLAY "tahun"
+  CALCULATE "tahun" mod 4
+  STORE "ulang" to the result of calculation
+  IF "ulang" equals to 0
+	DISPLAY "Tahun Kabisat"
+  ELSE	
+	DISPLAY "Bukan Tahun Kabisat"
+
+
+
+3. Laundry Day 
+
+STORE "cucian" with 0
+
+WHILE "cucian" < 21
+	ADD "cucian" by 1
+
+DISPLAY "Mulai Mencuci"
+
+
+
+4. Periksa Kuku
+
+varA = kuku panjang
+varB = kuku pendek
+
+
+STORE "periksa"  <= 40
+
+IF "periksa" == varA
+   DO "menghukum"
+ELSE "periksa" ==varB
+   DO "memuji"
+
+
+
